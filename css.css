@@ -20,15 +20,98 @@
     text-align: center;
 }
 .body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.753)), url('photo-1453928582365-b6ad33cbcf64.avif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.753)), url('photo-1453928582365-b6ad33cbcf64.avif');
     background-attachment: fixed;
     background-size: cover; 
     background-position: center; 
+    color: white;
     
 }
+
+
 .bangladesh{
     font-size: 30px;
 }
 .icon{
     font-size: 40px;
+}
+.img{
+    height: 400px;
+    padding-left: 0px;
+    
+}
+.learn{
+    color: white;
+    /* padding-bottom: 10px; */
+}
+.web{
+    color: green;
+    font-size: 40px;
+}
+
+ .more{
+    padding-left:100px;
+}
+.flex{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+     gap: 100px;
+   padding-bottom: 100px;
+}
+.btn{
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 1;
+    transition: all .3s;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 12px 24px;
+    color: #FFF;
+    background-color: #00AF43;
+    border: 1px solid #00AF43;
+    border-radius: 2px;
+}
+.banner{
+    background-color: rgba(17, 14, 14, 0.295);
+    padding-bottom: 100px;
+}
+.h3{
+    padding-top: 100px;
+}
+.me{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    color:rgb(144, 238, 21);
+}
+.fa{
+    
+     
+     border: 2px solid rgba(255, 255, 255, 0.959) ;
+     border-radius: 35px;
+     padding: 15px;
+     box-sizing: border-box;
+     background-color: rgba(245, 228, 228, 0.205);
+     color:rgb(34 197 94 / var(--tw-text-opacity, 1)); 
+     margin-top: -4.7rem;
+}
+
+
+.project{
+   
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.39); 
+   font-size: 20px;
+   padding-bottom: 5px;
+   
+}
+.footer{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1rem;
+   padding: 30px;
 }

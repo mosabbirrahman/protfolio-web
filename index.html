@@ -10,6 +10,7 @@
     <!-- typed.js  -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/6893566a61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body class="body">
     <section class="header">
@@ -17,14 +18,72 @@
     
           <h2 class="bangladesh">From Bangladesh</h2>
           <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae delectus sed fugit <br>quo aspernatur inventore, ipsam eaque id est, voluptate, <br>numquam sit obcaecati aperiam. Blanditiis commodi excepturi vel suscipit quas.</p>
-          <div class="icon">
+          <div class="icon" data-aos="zoom-in-right">
           <i class="fa-brands fa-facebook"></i>
           <i class="fa-brands fa-github"></i>
           </div>
     </section>
 
+      <section class="banner">
+      <div class="me" data-aos="fade-up-riht">About me!!</div>
+      <div class="flex">
+        <div class="more" data-aos="flip-right">
+          <h1>LEARN MORE ABOUT ME</h1>
+            <img class="img" src="18934f28-12b8-4bf7-ac6a-550e8799d3d9.jpg " alt="">
+        </div>
+        <div class="full" data-aos="zoom-in" >
+            <h1 class="web"><span>Frontend Web Devloper</span></h1>
+            <p class="learn">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Ea dolorum enim nostrum nesciunt alias nobis, debitis voluptates voluptatum, repellat porro,<br> eaque vitae cumque harum repellendus error vel! Facilis, pariatur. Eius!</p>
+            <h3> <i class="fa-solid fa-pen-nib">.</i>  Birthday:22 oct 2006</h3>
+            <h3><i class="fa-solid fa-pen-nib">.</i> age:18</h3>
+            <h3><i class="fa-solid fa-pen-nib">.</i> city: Dinajpur,Bangladesh</h3>
+            <h3><i class="fa-solid fa-pen-nib">.</i> phone:01823633271</h3>
+            <h3><i class="fa-solid fa-pen-nib">.</i> Email:mdmosabbirmishuk07@gmail.com</h3>
+            <h3><i class="fa-solid fa-pen-nib">.</i> Freelance:Available</h3>
+            <button class="btn">Download Resume</button>
+        </div>
+        </div>
 
-    <script>
+  <section class="footer">
+        <div class="project" " aos-init aos animate" data-aos="slide-up">
+          <div class="fa">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h1>50 +</h1>
+          <p>Complete Project</p>
+        </div>
+
+        <div class="project" " aos-init aos animate" data-aos="slide-up">
+          <div class="fa">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <h1>3</h1>
+          <p>Award</p>
+        </div>
+
+        <div class="project" " aos-init aos animate" data-aos="slide-up">
+          <div class="fa">
+            <i class="fa-solid fa-calendar-days"></i>
+          </div>
+          <h1>100 +</h1>
+          <p>Problem Solve</p>
+        </div>
+        </div>
+        
+      </section>
+        </section>
+    
+    
+
+
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+      <!-- script  -->
+      <script>
         var typed = new Typed('#typed', {
         strings: [' Mosabbir Mishuk', 'Programmer',  'Frontend Web Developer'],
         typeSpeed: 50,
@@ -32,6 +91,5 @@
         loop: true
         });
         </script>
-      
 </body>
 </html>
