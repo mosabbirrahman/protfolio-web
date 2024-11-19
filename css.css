@@ -220,6 +220,11 @@
     text-align: center;
     background-color: rgba(17, 14, 14, 0.753); 
 }
+.c{
+    color: coral;
+    text-align: center;
+    margin-top: 70px;
+}
 .app{
     background-color:rgba(17, 14, 14, 0.253); 
     padding: 40px;
@@ -248,6 +253,7 @@
 }
 .contact{
     background-color:rgba(17, 14, 14, 0.185);
+    margin-bottom: 40px;
    
 }
 .g{
@@ -296,3 +302,10 @@ border: 2px solid lawngreen;
      text-align: center;
      color: white;
 }
+.send{
+    text-align: center;
+  
+   
+}
+  
+   
