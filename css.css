@@ -114,6 +114,7 @@
 .w3-container{
     display: flex;
     gap: 40px;
+
     
 }
  .w4{
@@ -172,7 +173,9 @@
 
 .progress{
     background-color: rgba(17, 14, 14, 0.295);
-    margin-top: 80px;
+     margin-top: 80px; 
+      margin-bottom: 60px; 
+     padding-bottom: 40px;
    
 }
 .skill{
@@ -206,4 +209,27 @@
     margin: 20px;
     padding-left: 80px;
     
+}
+
+.temps img{
+  height: 225px;
+ max-width: 600px;
+}
+.doctor{
+    /* margin-right: 900px; */
+    text-align: center;
+    background-color: rgba(17, 14, 14, 0.753); 
+}
+.app{
+    background-color:rgba(17, 14, 14, 0.404); 
+    padding: 40px;
+    display: flex;
+    gap: 50px;
+}
+.git{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: cyan;
+    font-size: 20px;
 }
