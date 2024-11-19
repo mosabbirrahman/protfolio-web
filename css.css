@@ -108,6 +108,7 @@
     background-color: rgba(17, 14, 14, 0.74) ; 
     padding: 10px;
     padding-right: 450px;
+  
     
 }
 .w3-container{
@@ -115,6 +116,60 @@
     gap: 40px;
     
 }
+ .w4{
+   
+    text-align: center;
+    color: white;
+    background-color: green;
+    
+ }
+ .border{
+ width: 500% ; 
+ background-color: rgb(235, 226, 226);
+ 
+ }
+ .bor{
+     width: 500%; 
+   background-color: aliceblue;
+
+ }
+ .w5{
+    width: 80%;
+    text-align: center;
+    color: white;
+    
+    background-color: green;
+ }
+.w6{
+    text-align: center;
+    color: white;
+    
+    background-color: green;
+    width: 70%;
+}
+.w7{
+    text-align: center;
+    color: white;
+    
+    background-color: green;
+    width: 70%;
+}
+.w8{
+    text-align: center;
+    color: white;
+    
+    background-color: green;
+    width: 100%;
+}
+.w9{
+    text-align: center;
+    color: white;
+    
+    background-color: green;
+    width: 95%;
+}
+
+
 .progress{
     background-color: rgba(17, 14, 14, 0.295);
     margin-top: 80px;
