@@ -77,8 +77,9 @@
 }
 .banner{
     background-color: rgba(17, 14, 14, 0.295);
-    padding-bottom: 100px;
-}
+    padding-top: 10px;
+    padding-bottom: 30px;
+} 
 .h3{
     padding-top: 100px;
 }
@@ -88,30 +89,66 @@
     padding-top: 50px;
     color:rgb(144, 238, 21);
 }
-.fa{
-    
-     
-     border: 2px solid rgba(255, 255, 255, 0.959) ;
-     border-radius: 35px;
-     padding: 15px;
-     box-sizing: border-box;
-     background-color: rgba(245, 228, 228, 0.205);
-     color:rgb(34 197 94 / var(--tw-text-opacity, 1)); 
-     margin-top: -4.7rem;
-}
 
-
-.project{
-   
-   text-align: center;
-   background-color: rgba(0, 0, 0, 0.39); 
-   font-size: 20px;
-   padding-bottom: 5px;
-   
-}
-.footer{
+ .footer{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 1rem;
    padding: 30px;
+   padding-top: 0px;
+} 
+.assa{
+    font-size: 50px;
+   color: gold;
+   text-align: center;
+}
+.container{
+     /* padding: 100px; */ 
+       margin: 20px; 
+    background-color: rgba(17, 14, 14, 0.74) ; 
+    padding: 10px;
+    padding-right: 450px;
+    
+}
+.w3-container{
+    display: flex;
+    gap: 40px;
+    
+}
+.progress{
+    background-color: rgba(17, 14, 14, 0.295);
+    margin-top: 80px;
+   
+}
+.skill{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.ski{
+    padding: 40px;
+
+}
+
+.project{
+    margin-right: 100px;
+    background-color: rgba(17, 14, 14, 0.63);
+    margin-left:20px ;
+    width: 450px;
+    
+}
+.fa{
+
+    padding: 15px;
+    color: rgb(107, 107, 250);
+    font-size: 30px;
+    border-radius: 45px;
+    margin-top: -6.7rem;
+    background-color:rgba(165, 136, 136, 0.247) ;
+}
+.complete{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    padding-left: 80px;
+    
 }
