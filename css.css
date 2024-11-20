@@ -11,9 +11,11 @@
 } 
 .header{
     text-align: center;
-    padding: 150px;
+    
     color: rgb(255, 254, 254);
-    padding-top: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
    
 }
 .lorem{
@@ -25,8 +27,8 @@
     background-size: cover; 
     background-position: center; 
     color: white;
-    
 }
+
 
 
 .bangladesh{
@@ -48,7 +50,7 @@
 }
 
  .more{
-     padding-left:100px; */
+     padding-left:100px;
 }
 .flex{
     display: flex;
@@ -77,6 +79,9 @@
     background-color: rgba(17, 14, 14, 0.295);
     padding-top: 10px;
     padding-bottom: 30px;
+   /* padding-left: 100px; */
+   /* border: 2px solid red; */
+   padding: 40px;
 } 
 .h3{
     padding-top: 100px;
@@ -111,7 +116,6 @@
 }
 .w3-container{
     display: flex;
-    gap: 40px;
 
     
 }
@@ -171,10 +175,12 @@
 
 .progress{
     background-color: rgba(17, 14, 14, 0.295);
-     margin-top: 80px; 
-      margin-bottom: 60px; 
+     margin-top: 80px;  
+     margin-bottom: 60px;  
      padding-bottom: 40px;
-   
+   /* border: 2px solid red; */
+   padding: 40px;
+ 
 }
 .skill{
     padding-left: 70px;
@@ -205,18 +211,21 @@
     display: flex;
     text-align: center;
     margin: 20px;
-    padding-left: 80px;
-    
+
+     padding-left: 45px;
 }
 
 .temps img{
-  height: 225px;
- max-width: 600px;
+  height: 220px;
+
+
 }
 .doctor{
 
     text-align: center;
     background-color: rgba(17, 14, 14, 0.753); 
+    
+    
 }
 .c{
     color: coral;
@@ -224,10 +233,15 @@
     margin-top: 70px;
 }
 .app{
-    background-color:rgba(17, 14, 14, 0.253); 
-    padding: 40px;
+    background-color:rgba(17, 14, 14, 0.726); 
+    /* border: 2px solid red; */
+    
+}
+.d{
     display: flex;
-    gap: 50px;
+    padding: 40px;
+    gap: 30px;
+    padding-left: 60px;
 }
 .git{
     display: flex;
@@ -250,8 +264,12 @@
     display: flex;
 }
 .contact{
-    background-color:rgba(17, 14, 14, 0.185);
+    background-color:rgba(17, 14, 14, 0.397);
     margin-bottom: 40px;
+    /* border: 2px solid red; */
+    margin-top: 60px;
+    padding-bottom: 20px;
+    padding: 40px;
     
 }
 .g{
@@ -299,15 +317,13 @@
 .send{
     text-align: center;
     padding-top: 20px;
-    
-  
-   
 }
 .thank{
     text-align: center;
 }
 .t{
     color: darkorange;
+    padding-bottom: 40px;
 }
 .you{
     color: deeppink;
