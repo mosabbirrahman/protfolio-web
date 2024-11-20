@@ -15,9 +15,34 @@
     color: rgb(255, 254, 254);
     padding-top: 150px;
     padding-bottom: 150px;
-
    
 }
+.house{
+  
+    display: flex;
+    justify-content: center;
+    gap: 150px; 
+  margin-left: 230px;
+  margin-right: 230px;
+  background-color: rgba(0, 128, 0, 0.486);
+  font-size: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+ 
+}
+.man{
+    margin-top: -4.4rem;
+    margin-bottom: 70px;
+    padding-top: 40px;
+    position: fixed;
+    bottom: -4rem;
+    padding-left: 100px;
+    
+    
+  
+}
+
+ 
 .lorem{
     text-align: center;
 }
